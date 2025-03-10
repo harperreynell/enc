@@ -1,16 +1,6 @@
 # enc
 
 ### Build
-```
-enc <path to file or directory> <key> <operation>
-```
-
-There are two possible operations
-
-`enc` To encrypt 
-
-`dec` To decrypt
-
 **Make sure you have installed openssl**
 
 ```
@@ -25,6 +15,16 @@ clang++ main.cpp -o enc -lssl -lcrypto
 ```
 
 ### Ececute
+```
+enc <path to file or directory> <key> <operation>
+```
+
+There are two possible operations
+
+`enc` To encrypt 
+
+`dec` To decrypt
+
 
 ## Algorithm
 Idea is simple, realisation of DES algorithm
