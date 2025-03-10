@@ -17,13 +17,7 @@ There are two possible operations
 sudo apt install openssl
 sudo apt install libssl-dev
 ```
-Also you will need openssl library from [OpenSSL](https://www.openssl.org)
 
-Unpack downloaded archive, than
-```
-./Configure
-sudo make install
-```
 Now you are ready to go.
 
 ```
