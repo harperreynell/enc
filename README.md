@@ -1,6 +1,20 @@
 # enc
 
 ### Build
+**Make sure you have installed openssl**
+
+```
+sudo apt install openssl
+sudo apt install libssl-dev
+```
+
+Now you are ready to go.
+
+```
+clang++ main.cpp -o enc -lssl -lcrypto
+```
+
+### Ececute
 ```
 enc <path to file or directory> <key> <operation>
 ```
@@ -11,26 +25,6 @@ There are two possible operations
 
 `dec` To decrypt
 
-**Make sure you have installed openssl**
-
-```
-sudo apt install openssl
-sudo apt install libssl-dev
-```
-Also you will need openssl library from [OpenSSL](https://www.openssl.org)
-
-Unpack downloaded archive, than
-```
-./Configure
-sudo make install
-```
-Now you are ready to go.
-
-```
-clang++ main.cpp -o enc -lssl -lcrypto
-```
-
-### Ececute
 
 ## Algorithm
 Idea is simple, realisation of DES algorithm
