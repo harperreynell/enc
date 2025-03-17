@@ -1,4 +1,4 @@
-// #include <string>
+#include <string>
 #include <string.h>
 #include <iostream>
 #include <fstream>
@@ -113,3 +113,5 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
+// write own sha function
